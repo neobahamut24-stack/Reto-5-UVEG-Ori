@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #1a73e8;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+#btn-recargar {
+    margin-top: 10px;
+    padding: 8px 15px;
+    background: white;
+    color: #1a73e8;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#btn-recargar:hover {
+    background: #e3e3e3;
+}
+
+main {
+    padding: 15px;
+}
+
+.noticia {
+    background: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-left: 4px solid #1a73e8;
+    border-radius: 5px;
+}
+
+.noticia h2 a {
+    color: #1a73e8;
+    text-decoration: none;
+}
+
+.noticia h2 a:hover {
+    text-decoration: underline;
+}
+
+.noticia p {
+    color: #333;
+}
